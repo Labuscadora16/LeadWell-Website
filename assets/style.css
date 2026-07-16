@@ -73,11 +73,6 @@
   .hero h1{color:var(--white);font-size:3.15rem;max-width:9.5em;margin-bottom:22px;}
   .hero-sub{color:#C8D0E4;font-size:1.12rem;max-width:34em;margin-bottom:28px;}
   .hero-sub strong{color:var(--white);font-weight:600;}
-  .waypoint{margin:28px 0 46px;animation:wp-bob 2.6s ease-in-out infinite;}
-  .waypoint svg{display:block;width:100%;max-width:520px;height:60px;overflow:visible;}
-  .waypoint polyline{stroke:var(--gold);stroke-width:2;stroke-linejoin:round;stroke-linecap:round;fill:none;}
-  .waypoint polygon{fill:var(--gold);}
-  @keyframes wp-bob{0%,100%{transform:translateY(0);}50%{transform:translateY(-7px);}}
   .hero-ctas{display:flex;gap:14px;flex-wrap:wrap;}
   .hero-photo{position:relative;z-index:1;}
   .hero-photo-frame{position:relative;}
@@ -211,7 +206,6 @@
   .reveal.in{opacity:1;transform:translateY(0);}
   @media (prefers-reduced-motion: reduce){
     .reveal{opacity:1;transform:none;transition:none;}
-    .waypoint{animation:none;}
     .hero-blob-a,.hero-blob-b{animation:none;}
     .marquee-track{animation:none;}
     .hero-spotlight{display:none;}
