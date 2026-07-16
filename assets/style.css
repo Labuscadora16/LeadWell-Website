@@ -44,7 +44,7 @@
   header.site-nav.scrolled{box-shadow:0 6px 30px rgba(16,25,46,0.09);}
   header.site-nav.scrolled .nav-inner{padding-top:12px;padding-bottom:12px;}
   .nav-inner{max-width:var(--maxw);margin:0 auto;padding:18px 32px;display:flex;align-items:center;justify-content:space-between;transition:padding .3s ease;}
-  .wordmark{font-family:var(--font-display);font-weight:700;font-size:1.2rem;color:var(--navy);text-decoration:none;letter-spacing:0.01em;}
+  .wordmark{font-family:var(--font-body);font-weight:800;font-size:1.55rem;color:var(--navy);text-decoration:none;letter-spacing:-0.01em;}
   .nav-links{display:flex;align-items:center;gap:30px;}
   .nav-links a:not(.btn){font-size:1rem;font-weight:500;color:var(--ink-muted);text-decoration:none;position:relative;padding-bottom:3px;}
   .nav-links a:not(.btn)::after{content:"";position:absolute;left:0;bottom:0;width:0;height:1.5px;background:var(--indigo);transition:width .25s ease;}
@@ -75,14 +75,8 @@
   .hero-sub strong{color:var(--white);font-weight:600;}
   .waypoint{margin:28px 0 46px;}
   .waypoint svg{display:block;width:100%;max-width:520px;height:60px;overflow:visible;}
-  .waypoint path{stroke:var(--gold);stroke-width:2;stroke-linejoin:miter;stroke-linecap:round;fill:none;stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1.8s ease forwards .4s;}
-  .waypoint circle{fill:var(--gold);opacity:0;animation:fadein .4s ease forwards;}
-  .waypoint circle:nth-of-type(1){animation-delay:.4s;}
-  .waypoint circle:nth-of-type(2){animation-delay:.93s;}
-  .waypoint circle:nth-of-type(3){animation-delay:1.47s;}
-  .waypoint circle:nth-of-type(4){animation-delay:2s;}
+  .waypoint path{stroke:var(--gold);stroke-width:2;stroke-linejoin:round;stroke-linecap:round;fill:none;stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1.6s ease forwards .4s;}
   @keyframes draw{to{stroke-dashoffset:0;}}
-  @keyframes fadein{to{opacity:1;}}
   .hero-ctas{display:flex;gap:14px;flex-wrap:wrap;}
   .hero-photo{position:relative;z-index:1;}
   .hero-photo-frame{position:relative;}
