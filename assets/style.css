@@ -75,7 +75,9 @@
   .hero-sub strong{color:var(--white);font-weight:600;}
   .waypoint{margin:28px 0 46px;}
   .waypoint svg{display:block;width:100%;max-width:520px;height:60px;overflow:visible;}
-  .waypoint path{stroke:var(--gold);stroke-width:2;stroke-linejoin:round;stroke-linecap:round;fill:none;stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1.6s ease forwards .4s;}
+  .waypoint path{stroke:var(--gold);stroke-width:2;stroke-linejoin:round;stroke-linecap:round;fill:none;stroke-dasharray:1;stroke-dashoffset:1;}
+  .waypoint .arrow-shaft{animation:draw 1.5s ease forwards .4s;}
+  .waypoint .arrow-head{animation:draw .4s ease forwards 1.85s;}
   @keyframes draw{to{stroke-dashoffset:0;}}
   .hero-ctas{display:flex;gap:14px;flex-wrap:wrap;}
   .hero-photo{position:relative;z-index:1;}
